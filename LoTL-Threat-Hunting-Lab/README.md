@@ -90,6 +90,6 @@ _Verifying the port is closed and the system is clean._
 - **Hiding in Plain Sight:** The `ls` command does not show hidden files (those starting with a `.`). Threat hunters must use `ls -la` or `find` to uncover them.
 - **Trust, but Verify:** After killing a process, always re-run your network scan (`ss -tulpn`) to ensure the attacker didn't establish a secondary backdoor.
 
-## 🛠️ Remediation
+##  Remediation
 
 See [remediation.md](remediation.md) for defense-in-depth recommendations.
