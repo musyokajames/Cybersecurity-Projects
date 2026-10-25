@@ -22,21 +22,21 @@ This project demonstrates the ability to capture and analyze web traffic (HTTP) 
 Filtered for `dns` to observe the workstation requesting the IP address for `neverssl.com`. This is the first step in any web request.
 
 ![DNS Query](screenshots/01-dns-query.png)
-_Figure 1: The DNS query and response resolving the domain name to an IPv4 address._
+_The DNS query and response resolving the domain name to an IPv4 address._
 
 ### 2. The TCP Handshake
 
 Filtered for `tcp.flags.syn == 1` and the target IP to observe the TCP 3-way handshake. This establishes the reliable connection before data can be sent.
 
 ![TCP Handshake](screenshots/02-tcp-handshake.png)
-_Figure 2: The initial SYN packet initiating the connection to the web server._
+_ The initial SYN packet initiating the connection to the web server._
 
 ### 3. The HTTP Request
 
 Filtered for `http` to find the actual web request. Because the site uses HTTP (port 80) instead of HTTPS, the entire request is readable in plain text.
 
 ![HTTP Request](screenshots/03-http-request.png)
-_Figure 3: Inspecting the HTTP GET request, revealing the Host and User-Agent._
+_ Inspecting the HTTP GET request, revealing the Host and User-Agent._
 
 ## Lessons Learned
 
