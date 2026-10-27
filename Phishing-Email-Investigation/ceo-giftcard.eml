@@ -1,0 +1,15 @@
+Return-Path: <bounce@mailer-daemon.com>
+Received: from mailer-daemon.com (mailer-daemon.com [198.51.100.42])
+        by mx.company.com with SMTP id abc123
+        for <analyst@company.com>;
+        Mon, 26 Oct 2026 09:14:02 -0400
+From: "CEO John Doe" <ceo@company.com>
+Reply-To: <ceo.private@gmail.com>
+To: analyst@company.com
+Subject: URGENT: Gift Cards for Client
+Date: Mon, 26 Oct 2026 09:14:00 -0400
+Message-ID: <123456789@mailer-daemon.com>
+Authentication-Results: mx.company.com;
+       spf=pass (mailer-daemon.com: domain of bounce@mailer-daemon.com designates 198.51.100.42 as permitted sender) smtp.mailfrom=bounce@mailer-daemon.com;
+       dkim=pass header.i=@mailer-daemon.com;
+       dmarc=pass (p=NONE sp=NONE) header.from=mailer-daemon.com
