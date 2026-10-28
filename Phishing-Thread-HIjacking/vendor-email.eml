@@ -1,0 +1,36 @@
+Delivered-To: accountant@yourcompany.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id z987654321
+        for <accountant@yourcompany.com>
+        (Google Transport Security);
+        Tue, 27 Oct 2026 14:22:10 -0700 (PDT)
+Received: from server.vendor-domain.com (server.vendor-domain.com. [102.89.33.1])
+        by mail-sor-f41.google.com with SMTP id xyz987
+        for <accountant@yourcompany.com>;
+        Tue, 27 Oct 2026 14:22:08 -0700 (PDT)
+From: "Acme Corp Billing" <billing@vendor-domain.com>
+To: accountant@yourcompany.com
+Subject: RE: Invoice #9942 - URGENT Update
+Date: Tue, 27 Oct 2026 23:22:05 +0200
+Message-ID: <ABC123XYZ@vendor-domain.com>
+In-Reply-To: <original-thread-id@yourcompany.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of billing@vendor-domain.com designates 45.33.12.99 as permitted sender) smtp.mailfrom=billing@vendor-domain.com;
+       dkim=pass header.i=@vendor-domain.com;
+       dmarc=pass (p=NONE sp=NONE) header.from=vendor-domain.com
+
+Hi Team,
+
+Please see the updated invoice attached. Our banking details have changed. 
+Please update your records and process the payment to the new account.
+
+Account Name: Acme Corp Holdings
+IBAN: DE89 3704 0044 0532 0130 00
+Bank: Deutsche Bank (Frankfurt)
+
+Let me know if you need anything else.
+
+Best,
+Acme Billing Team
