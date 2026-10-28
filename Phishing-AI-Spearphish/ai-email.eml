@@ -1,0 +1,33 @@
+Delivered-To: cfo@yourcompany.com
+Received: from mail.yourcompany.com (mail.yourcompany.com. [192.168.1.50])
+        by mx.google.com with ESMTPS id a1b2c3
+        for <cfo@yourcompany.com>;
+        Wed, 28 Oct 2026 08:12:05 -0700 (PDT)
+Received: from smtp-relay.xyz (smtp-relay.xyz. [185.199.108.153])
+        by mail.yourcompany.com with ESMTP id x9y8z7
+        for <cfo@yourcompany.com>;
+        Wed, 28 Oct 2026 08:12:02 -0700 (PDT)
+From: "CEO John Doe" <john.doe@yourcompany.com>
+To: cfo@yourcompany.com
+Subject: Quick check-in
+Date: Wed, 28 Oct 2026 11:11:58 -0400
+Message-ID: <randomstring123@yourcompany.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+X-Mailer: PHP/8.1.2
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of john.doe@yourcompany.com designates 185.199.108.153 as permitted sender) smtp.mailfrom=john.doe@yourcompany.com;
+       dkim=none;
+       dmarc=pass (p=NONE sp=NONE) header.from=yourcompany.com
+
+Hi Sarah,
+
+I hope this email finds you well.I'm currently in back-to-back meetings with the board and can't take calls. 
+
+Could you do me a quick favor? I need to arrange a small token of appreciation for a client we just closed a deal with. Are we able to get a few gift cards sorted today? 
+
+Let me know if you can handle this, and I'll provide the details on where to send them.
+
+Best,
+John Doe
+Chief Executive Officer
